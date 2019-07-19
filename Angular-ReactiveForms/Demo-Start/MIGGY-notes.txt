@@ -1,0 +1,12 @@
+-------Template Driven Fro
+
+The bottom line here is that the template-driven form's approach minimizes
+the component class code we need to write, but it is heavy on the template
+code.
+Each control takes a full page of HTML. When using template-driven forms,
+Angular automatically creates the form model. We can then use that to track
+form and control state, and the ngModel two-way data binding takes care of
+keeping our classs properties in sync.
+But often in a real app forms are more complex than this.
+
+
